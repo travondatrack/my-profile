@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Tĩnh</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -55,13 +55,14 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+      <div class="floating-elements"></div>
       <div class="hero-container">
         <div class="hero-content">
           <h1>
             Xin chào, tôi là <span class="highlight">Nguyễn Quốc Tĩnh</span>
           </h1>
           <p class="hero-subtitle">Sinh viên ngành An toàn thông tin</p>
-          <p class="hero-description">"Nắm bắt nhanh công nghệ mới."</p>
+          <p class="hero-description">"No patch, no mercy."</p>
           <div class="hero-buttons">
             <a href="#projects" class="btn btn-primary">Xem dự án</a>
             <a href="#contact" class="btn btn-secondary">Liên hệ</a>
@@ -283,7 +284,7 @@
                   TIN NĂM 2025
                 </h4>
                 <p>9/2025</p>
-                <span class="cert-status preparing">Sắp diễn ra</span>
+                <span class="cert-status preparing">Sắp tham gia</span>
               </div>
             </div>
           </div>
@@ -376,108 +377,89 @@
     <!-- Assignments Section -->
     <section id="assignments" class="assignments">
       <div class="container">
-        <h2 class="section-title">Bài tập và Thực hành</h2>
-        <div class="assignments-grid">
+        <h2 class="section-title">Bài tập từng buổi học</h2>
+        <div id="assignments-list" class="assignments-grid">
           <div class="assignment-category">
-            <h3><i class="fas fa-calendar-week"></i> Tuần 1</h3>
+            <h3><i class="fas fa-calendar-week"></i> Buổi 1</h3>
             <ul class="assignment-list">
               <li>
-                <input
-                  type="url"
-                  placeholder="Nhập link bài tập tuần 1"
-                  class="assignment-input"
-                />
+                <a
+                  href="https://travondatrack.github.io/my-profile/"
+                  target="_blank"
+                  class="assignment-link"
+                  >https://travondatrack.github.io/my-profile/</a
+                >
+                <span class="assignment-status completed">Đã có link</span>
               </li>
             </ul>
           </div>
 
           <div class="assignment-category">
-            <h3><i class="fas fa-calendar-week"></i> Tuần 2</h3>
+            <h3><i class="fas fa-calendar-week"></i> Buổi 2</h3>
             <ul class="assignment-list">
               <li>
-                <input
-                  type="url"
-                  placeholder="Nhập link bài tập tuần 2"
-                  class="assignment-input"
-                />
+                <span class="assignment-placeholder">Bài tập buổi 2</span>
+                <span class="assignment-status updating">Đang cập nhật</span>
               </li>
             </ul>
           </div>
 
           <div class="assignment-category">
-            <h3><i class="fas fa-calendar-week"></i> Tuần 3</h3>
+            <h3><i class="fas fa-calendar-week"></i> Buổi 3</h3>
             <ul class="assignment-list">
               <li>
-                <input
-                  type="url"
-                  placeholder="Nhập link bài tập tuần 3"
-                  class="assignment-input"
-                />
+                <span class="assignment-placeholder">Bài tập buổi 3</span>
+                <span class="assignment-status updating">Đang cập nhật</span>
               </li>
             </ul>
           </div>
 
           <div class="assignment-category">
-            <h3><i class="fas fa-calendar-week"></i> Tuần 4</h3>
+            <h3><i class="fas fa-calendar-week"></i> Buổi 4</h3>
             <ul class="assignment-list">
               <li>
-                <input
-                  type="url"
-                  placeholder="Nhập link bài tập tuần 4"
-                  class="assignment-input"
-                />
+                <span class="assignment-placeholder">Bài tập buổi 4</span>
+                <span class="assignment-status updating">Đang cập nhật</span>
               </li>
             </ul>
           </div>
 
           <div class="assignment-category">
-            <h3><i class="fas fa-calendar-week"></i> Tuần 5</h3>
+            <h3><i class="fas fa-calendar-week"></i> Buổi 5</h3>
             <ul class="assignment-list">
               <li>
-                <input
-                  type="url"
-                  placeholder="Nhập link bài tập tuần 5"
-                  class="assignment-input"
-                />
+                <span class="assignment-placeholder">Bài tập buổi 5</span>
+                <span class="assignment-status updating">Đang cập nhật</span>
               </li>
             </ul>
           </div>
 
           <div class="assignment-category">
-            <h3><i class="fas fa-calendar-week"></i> Tuần 6</h3>
+            <h3><i class="fas fa-calendar-week"></i> Buổi 6</h3>
             <ul class="assignment-list">
               <li>
-                <input
-                  type="url"
-                  placeholder="Nhập link bài tập tuần 6"
-                  class="assignment-input"
-                />
+                <span class="assignment-placeholder">Bài tập buổi 6</span>
+                <span class="assignment-status updating">Đang cập nhật</span>
               </li>
             </ul>
           </div>
 
           <div class="assignment-category">
-            <h3><i class="fas fa-calendar-week"></i> Tuần 7</h3>
+            <h3><i class="fas fa-calendar-week"></i> Buổi 7</h3>
             <ul class="assignment-list">
               <li>
-                <input
-                  type="url"
-                  placeholder="Nhập link bài tập tuần 7"
-                  class="assignment-input"
-                />
+                <span class="assignment-placeholder">Bài tập buổi 7</span>
+                <span class="assignment-status updating">Đang cập nhật</span>
               </li>
             </ul>
           </div>
 
           <div class="assignment-category">
-            <h3><i class="fas fa-calendar-week"></i> Tuần 8</h3>
+            <h3><i class="fas fa-calendar-week"></i> Buổi 8</h3>
             <ul class="assignment-list">
               <li>
-                <input
-                  type="url"
-                  placeholder="Nhập link bài tập tuần 8"
-                  class="assignment-input"
-                />
+                <span class="assignment-placeholder">Bài tập buổi 8</span>
+                <span class="assignment-status updating">Đang cập nhật</span>
               </li>
             </ul>
           </div>
@@ -638,7 +620,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2025 Portfolio - Nguyễn Quốc Tĩnh. All rights reserved.</p>
+        <p>&copy;Nguyễn Quốc Tĩnh. All rights reserved.</p>
       </div>
     </footer>
 
